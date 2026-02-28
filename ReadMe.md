@@ -7,7 +7,7 @@ Collection of tools and format research.
 
 ---
 
-# Format index:
+# Format index
 - BIN
 - BMP
 - BMZ
@@ -30,4 +30,28 @@ Collection of tools and format research.
 - TIM
 - TXV
 - WAV
-- *
+- (noext)
+
+# RE Format status:
+- BIN (RE+Tool)
+- BMP (RE)
+- BMZ (RE)
+- CAM (X)
+- CM2 (X)
+- HGZ (X)
+- JFL (RE)
+- MTZ
+- OI2
+- PAT
+- PD
+- PDZ
+- REC
+- SCN
+- SOS
+- STM
+- SYS
+- TD
+- TDZ
+- TIM
+- TXV
+- WAV
