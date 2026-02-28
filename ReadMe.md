@@ -1,4 +1,4 @@
-# Stunt Typhoon Format
+# Stunt Typhoon / Stunt Typhoon Plus Format RE
 ### Reverse Engineering of Formats
 
 Collection of tools and format research.
