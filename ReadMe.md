@@ -42,6 +42,7 @@ File table format onced swapped:
 
 ## PDZ
 Hypothesis for extension "*Polygon Data Zlib*" 
+
 `.PDZ` zlib-wrapped geometry payload, decompresses into `.pd`
 
 Header information:
@@ -55,6 +56,7 @@ Header information:
 
 ## TDZ
 Hypothesis for extension "*Texture Data Zlib*" 
+
 `*.TDZ` files use the same `0x20`-byte zlib wrapper pattern as `*.PDZ`, but the internal file extension is usually `.td`.
 
 | Offset | Size    | Meaning                                           |
@@ -67,8 +69,10 @@ Hypothesis for extension "*Texture Data Zlib*"
 
 ## MTZ
 Hypothesis for extension "*Motion Table Zlib*" 
+
 `.MTZ`: zlib-compressed motion/animation tables. 
 The container header is `0x20` bytes: `0x00..0x0f` is a null-padded embedded `.dat` name, `0x10..0x13` is big-endian version `1`, `0x1c..0x1f` is the big-endian decompressed size, and the zlib stream starts at `0x20`.
+
 Decompresses to `.dat`
 
 ## Credits
